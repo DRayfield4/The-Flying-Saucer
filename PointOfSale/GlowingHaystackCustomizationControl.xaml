@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="TheFlyingSaucer.PointOfSale.GlowingHaystackCustomizationControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TheFlyingSaucer.PointOfSale"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock DockPanel.Dock="Top" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="35" Grid.Row="0">
+            Customize Glowing Haystack
+        </TextBlock>
+        <CheckBox Grid.Row="1" IsChecked="{Binding Path=GreenChileSauce}" VerticalAlignment="Center" Margin="20"/>
+        <TextBlock Grid.Row="1" Text="Green Chile Sauce" FontSize="20" VerticalAlignment="Center" Margin="50,0,0,5"/>
+        <CheckBox Grid.Row="2" IsChecked="{Binding Path=SourCream}" VerticalAlignment="Center" Margin="20"/>
+        <TextBlock Grid.Row="2" Text="Sour Cream" FontSize="20" VerticalAlignment="Center" Margin="50,0,0,5"/>
+        <CheckBox Grid.Row="3" IsChecked="{Binding Path=Tomatoes}" VerticalAlignment="Center" Margin="20"/>
+        <TextBlock Grid.Row="3" Text="Tomatoes" FontSize="20" VerticalAlignment="Center" Margin="50,0,0,5"/>
+        <TextBlock Text="{Binding Path=Calories, StringFormat='Calories: '}" Grid.Row="6"/>
+    </Grid>
+</UserControl>

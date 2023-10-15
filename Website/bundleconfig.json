@@ -1,0 +1,11 @@
+[
+  {
+    "outputFileName": "wwwroot/css/site.css",
+    "inputFiles": [
+      "wwwroot/css/site.css",
+      "wwwroot/css/privacy.css",
+      "wwwroot/css/index.css",
+      "wwwroot/css/about.css"
+    ]
+  }
+]

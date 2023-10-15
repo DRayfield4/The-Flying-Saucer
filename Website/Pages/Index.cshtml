@@ -1,0 +1,85 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@using TheFlyingSaucer.Data
+
+<form>
+    <input type="text" name="SearchTerms" value="@Model.SearchTerms" />
+    <input type="submit" name="Search"/>
+</form>
+
+<div>
+    <input name="Entrees" type="checkbox" value="true" @(Model.Entrees ? "checked" : "") />Entrees
+    <input type="checkbox" name="Sides" value="true" @(Model.Sides ? "checked" : "") />Sides
+    <input type="checkbox" name="Drinks" value="true" @(Model.Drinks ? "checked" : "") />Drinks
+</div>
+
+<div>
+    Between $
+    <input name="PriceMin" type="number" min="0" max="1000" step="10" placeholder="min"/>
+    and $
+    <input name="PriceMax" type="number" min="0" max="1000" step="10" placeholder="min"/>
+</div>
+
+<div>
+    Between
+    <input name="CaloriesMin" type="number" min="0" max="1000" step="10" placeholder="min" />
+    and
+    <input name="CaloriesMax" type="number" min="0" max="1000" step="10" placeholder="min" />
+    Calories
+</div>
+
+<h1 class="header">Breakfast out of this world!</h1>
+
+<h2 id="entrees" class="entrees-label">Entrees</h2>
+
+@foreach (var item in Menu.Entrees.Where(e =>
+   (string.IsNullOrEmpty(Model.SearchTerms) || e.Name.ToLower().Contains(Model.SearchTerms.ToLower())) &&
+   (string.IsNullOrEmpty(Model.PriceMin) || e.Price >= decimal.Parse(Model.PriceMin)) &&
+   (string.IsNullOrEmpty(Model.PriceMax) || e.Price <= decimal.Parse(Model.PriceMax)) &&
+   (string.IsNullOrEmpty(Model.CaloriesMin) || e.Calories >= int.Parse(Model.CaloriesMin)) &&
+   (string.IsNullOrEmpty(Model.CaloriesMax) || e.Calories <= int.Parse(Model.CaloriesMax))))
+{
+    <div class="menu-item">
+        <div>@item.Name</div>
+        <div>@item.Description</div>
+        <div>Price: $@item.Price</div>
+        <div>calories: @item.Calories<br><br></div>
+    </div>
+}
+
+<h2 id="sides" class="sides-label">Sides</h2>
+
+@foreach (var item in Menu.Sides.Where(e =>
+   (string.IsNullOrEmpty(Model.SearchTerms) || e.Name.ToLower().Contains(Model.SearchTerms.ToLower())) &&
+   (string.IsNullOrEmpty(Model.PriceMin) || e.Price >= decimal.Parse(Model.PriceMin)) &&
+   (string.IsNullOrEmpty(Model.PriceMax) || e.Price <= decimal.Parse(Model.PriceMax)) &&
+   (string.IsNullOrEmpty(Model.CaloriesMin) || e.Calories >= int.Parse(Model.CaloriesMin)) &&
+   (string.IsNullOrEmpty(Model.CaloriesMax) || e.Calories <= int.Parse(Model.CaloriesMax))))
+{
+    <div class="menu-item">
+        <div>@item.Name</div>
+        <div>@item.Description</div>
+        <div>Price: $@item.Price</div>
+        <div>calories: @item.Calories<br><br></div>
+    </div>
+}
+
+<h2 id="drinks" class="drinks-label">Drinks</h2>
+
+@foreach (var item in Menu.Drinks.Where(e =>
+   (string.IsNullOrEmpty(Model.SearchTerms) || e.Name.ToLower().Contains(Model.SearchTerms.ToLower())) &&
+   (string.IsNullOrEmpty(Model.PriceMin) || e.Price >= decimal.Parse(Model.PriceMin)) &&
+   (string.IsNullOrEmpty(Model.PriceMax) || e.Price <= decimal.Parse(Model.PriceMax)) &&
+   (string.IsNullOrEmpty(Model.CaloriesMin) || e.Calories >= int.Parse(Model.CaloriesMin)) &&
+   (string.IsNullOrEmpty(Model.CaloriesMax) || e.Calories <= int.Parse(Model.CaloriesMax))))
+{
+    <div class="menu-item">
+        <div>@item.Name</div>
+        <div>@item.Description</div>
+        <div>Price: $@item.Price</div>
+        <div>calories: @item.Calories<br><br></div>
+    </div>
+}

@@ -1,0 +1,18 @@
+﻿.about-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 293px;
+    margin-right: 45%;
+}

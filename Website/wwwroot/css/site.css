@@ -1,0 +1,534 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url('/Art/space background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.footer {
+    color: white;
+}
+
+.header {
+    text-align: center;
+    font-family: Abuget;
+    font-size: 80px;
+}
+
+.entrees-label {
+    font-family: Abuget;
+}
+.sides-label {
+    font-family: Abuget;
+}
+
+.drinks-label {
+    font-family: Abuget;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+    margin-left: 90%;
+}
+.privacy-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.privacy-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 275px;
+    margin-right: 42%;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 293px;
+    margin-right: 45%;
+}
+.privacy-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.privacy-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 275px;
+    margin-right: 42%;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 293px;
+    margin-right: 45%;
+}
+.privacy-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.privacy-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 275px;
+    margin-right: 42%;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 293px;
+    margin-right: 45%;
+}
+.privacy-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.privacy-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 275px;
+    margin-right: 42%;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 293px;
+    margin-right: 45%;
+}
+.privacy-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.privacy-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 275px;
+    margin-right: 42%;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 293px;
+    margin-right: 45%;
+}
+.privacy-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.privacy-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 275px;
+    margin-right: 42%;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 293px;
+    margin-right: 45%;
+}
+.privacy-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.privacy-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 275px;
+    margin-right: 42%;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 293px;
+    margin-right: 45%;
+}
+.privacy-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.privacy-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 275px;
+    margin-right: 42%;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 293px;
+    margin-right: 45%;
+}
+.privacy-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.privacy-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 275px;
+    margin-right: 42%;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 293px;
+    margin-right: 45%;
+}
+.privacy-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.privacy-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 275px;
+    margin-right: 42%;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 293px;
+    margin-right: 45%;
+}
+.privacy-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.privacy-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 275px;
+    margin-right: 42%;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 293px;
+    margin-right: 45%;
+}
+.privacy-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.privacy-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 275px;
+    margin-right: 42%;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 293px;
+    margin-right: 45%;
+}
+.privacy-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.privacy-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 275px;
+    margin-right: 42%;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-header {
+    text-align: center;
+    font-family: Abuget;
+    margin-top: 293px;
+    margin-right: 45%;
+}
